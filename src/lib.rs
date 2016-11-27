@@ -15,6 +15,9 @@ extern crate num_traits;
 extern crate enum_primitive;
 #[cfg(all(test, benchmarks))]
 extern crate test;
+#[cfg(feature = "webp")]
+#[macro_use]
+extern crate nom;
 
 use std::io::Write;
 

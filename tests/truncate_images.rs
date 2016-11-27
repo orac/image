@@ -82,3 +82,8 @@ fn truncate_jpg() {
 fn truncate_hdr() {
     truncate_images("hdr");
 }
+
+#[test]
+fn truncate_webp() {
+    truncate_images("webp");
+}
